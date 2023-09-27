@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SafeArea : MonoBehaviour
 {
-	void OnEnable()
+	void Awake()
 	{
 		ApplySafeAreaToTransform();
 	}
