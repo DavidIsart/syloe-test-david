@@ -26,6 +26,9 @@ public class UIVideo : MonoBehaviour, IPointerClickHandler
 	{
 		_toggleImage.SetToggle(_paused);
 		_videoLength = (float)_videoPlayer.length;
+		_slider.minValue = 0;
+		_slider.maxValue = 0;
+		_slider.interactable = false;
 
 		UpdateSliderAndText();
 	}
@@ -38,10 +41,8 @@ public class UIVideo : MonoBehaviour, IPointerClickHandler
 
 	private void UpdateSliderAndText()
 	{
-		_slider.normalizedValue = watchPercentage;
+		_slider.value = watchPercentage;
 		_timeText.text = TimeSpan.FromSeconds(_videoPlayer.clockTime).ToString(@"mm\:ss");
-
-		print(TimeSpan.FromSeconds(_videoPlayer.clockTime).ToString(@"mm\:ss"));
 	}
 
 	public void OnPointerClick(PointerEventData eventData)
