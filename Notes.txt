@@ -2,7 +2,7 @@
 + 17h --> Start pt.1
 + 18h44 --> 19h pause
 + 19h --> 19h07 pt.1 Fin
-= 1h51 total pour pt.1
+= 1h50 total pour pt.1
 
 + 19h10 --> Start pt.2
 + 19h10 --> 20h fait le Safe Area mais perdu du temps a essayer de corriger un bug pas tres important
@@ -15,4 +15,13 @@
 
 pt3 skip + pause
 12h30 --> 16h pour faire pt.4, perdu bcp de temps a essayer de faire fullscreen, j'ai finalement skip la tache
-16h fin
+= 3h30
+
+17h --> start pt.5
+19h --> end pt.5
+= 2h
+
+19h --> 19h26 build
+
+Temps total = 1h50 + 3h15 + 3h30 + 2h + 25min
+= 10h 
