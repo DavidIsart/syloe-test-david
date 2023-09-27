@@ -10,6 +10,7 @@ public class ToggleImage : Image
 	[SerializeField] private bool _isOn = true;
 	
 	public UnityEvent onValueChanged = new UnityEvent();
+	public bool isOn => _isOn;
 
 	protected override void Awake()
 	{
