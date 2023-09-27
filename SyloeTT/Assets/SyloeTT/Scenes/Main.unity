@@ -453,8 +453,8 @@ MonoBehaviour:
   - {fileID: 1544213543}
   - {fileID: 1397141459}
   _autoOrganize: 1
-  _nextPagePercentageThreshold: 0.2
-  _easeDuration: 0.2
+  _nextPagePercentageThreshold: 0.35
+  _easeDuration: 0.4
   _easeCurve:
     serializedVersion: 2
     m_Curve:
@@ -684,6 +684,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9119691887290137223, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119691887290137223, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119691887290137223, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119691887290137223, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119691887290137223, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9119691887711282971, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -702,10 +722,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9119691888103007005, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9119691888738754242, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
-      propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9119691888738754242, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
@@ -799,10 +815,6 @@ PrefabInstance:
     - target: {fileID: 9119691888910640191, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
       propertyPath: m_Name
       value: Lecture Page
-      objectReference: {fileID: 0}
-    - target: {fileID: 9119691888910640191, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9119691888960937159, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
       propertyPath: m_AnchorMax.y
