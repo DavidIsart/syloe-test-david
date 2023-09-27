@@ -1086,6 +1086,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 403094293317271234}
+  - component: {fileID: 7087345779831617232}
   m_Layer: 5
   m_Name: Editor Page
   m_TagString: Untagged
@@ -1100,7 +1101,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403094293317271235}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1114,6 +1115,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7087345779831617232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403094293317271235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91b50d1741d43d1468fb707325fc3b57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _episodeNameInputField: {fileID: 403094293275093517}
+  _viewCountInputField: {fileID: 403094293693358529}
+  _saveButton: {fileID: 403094293515655765}
 --- !u!1 &403094293449115541
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,7 +1982,7 @@ GameObject:
   - component: {fileID: 403094294309904941}
   - component: {fileID: 403094294309904942}
   m_Layer: 5
-  m_Name: Button - Save
+  m_Name: Button - Client
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2073,7 +2089,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 403094294309904940}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PageSwiper, Assembly-CSharp
+        m_MethodName: GoToNextPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &403094294309904942
 MonoBehaviour:
   m_ObjectHideFlags: 0
