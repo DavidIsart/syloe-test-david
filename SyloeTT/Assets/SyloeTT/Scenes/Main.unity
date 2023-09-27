@@ -816,6 +816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lecture Page
       objectReference: {fileID: 0}
+    - target: {fileID: 9119691888910640191, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9119691888960937159, guid: dd15820a0085c4f429bd6e428049a477, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
