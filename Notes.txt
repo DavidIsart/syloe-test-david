@@ -25,3 +25,8 @@ pt3 skip + pause
 
 Temps total = 1h50 + 3h15 + 3h30 + 2h + 25min
 = 10h 
+
+
+Not Done :
+- Horizontal Orientation
+- Video Fullscreen
