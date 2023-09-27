@@ -18,12 +18,6 @@ public class ToggleImage : Image
 		sprite = _isOn ? _toggleOnSprite : _toggleOffSprite;
 	}
 
-	protected override void OnValidate()
-	{
-		base.OnValidate();
-		sprite = _isOn ? _toggleOnSprite : _toggleOffSprite;
-	}
-
 	public void SetToggle(bool isOn)
 	{
 		if (_isOn != isOn)
@@ -39,5 +33,4 @@ public class ToggleImage : Image
 		_isOn = !_isOn;
 		sprite = _isOn ? _toggleOnSprite : _toggleOffSprite;
 	}
-
 }
